@@ -1,0 +1,111 @@
+/* 
+--------01 TYPOGRAPHY SYSTEM 
+
+- FONT SIZE SYSTEM {px}
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+- Font weights:
+Default: 400
+Medium: 500 
+Semi-bold: 600
+bold700
+
+- Line heihts:
+Deafult: 1
+small: 1.05
+Medium: 1.2
+paragraph default: 1.6
+
+- Letter Spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+Primary: #e67e22
+Tints: 
+#fdf2e9
+#fae5d3
+
+Shades: 
+#cf711f
+
+Accents: 
+Greys: 
+#555
+#333
+
+----- 05 SHADOWS
+
+----  06 BORDER-RADIUS
+default: 9px
+
+---- 07 WHITESPACE
+- SPACING SYSTEM {px}
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+.grid{
+    display: grid;
+    gap: 2.4rem;
+}
+
+
+.grid--2--cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--sp--cols{
+    grid-template-columns: 2fr 1fr;
+}
+.grid--sp2--cols{
+    grid-template-columns: 1fr 1fr 1fr auto;
+}
+
+.header-primary{
+    font-size: 6.2rem;
+    line-height: 1;
+    margin-bottom: 1.6rem;
+}
+
+.header-primary span{
+    color: #EA0000;
+
+}
+
+.heading-secondary{
+    /* color: #222; */
+    line-height: 0.9;
+    /* letter-spacing: -1px; */
+    font-size: 5.2rem;
+    font-weight: 700;
+}
+
+.pharagraph-text{
+    font-size: 2.4rem;
+    line-height: 1;
+    margin-bottom: 4.8rem;
+
+}
+
+.heading-secondary span{
+    color: #EA0000;
+}
+
+.center-text{
+    text-align: center;
+}

@@ -1,0 +1,227 @@
+/*******************************************************
+            below 1150px (Smaller destops)
+*******************************************************/
+
+@media(max-width: 71.87em){
+    html{
+        font-size: 56.25%;
+    }
+
+    .heading-secondary{
+        font-size: 4.4rem;
+    }
+
+    .tst-text {
+        font-size: 1.8rem;
+    }
+
+    .hero{
+        max-width: 120rem;
+        padding: 10rem 2.4rem;
+    }
+    .nav-link:link, 
+    .nav-link:visited,
+    .nav-btn, 
+    .hero-btn{
+        
+        padding: 0.8rem 1.6rem;
+    }
+}
+
+/*******************************************************
+            below 896px (Landscape TABLET)
+*******************************************************/
+
+/* @media(max-width: 56em){
+    html{
+        8px / 16px
+        font-size: 50%;
+    }
+
+    .header-primary{
+        font-size: 5.2rem;
+    }
+} */
+
+/*******************************************************
+            below 910px (TABLET)
+*******************************************************/
+
+
+@media(max-width: 56.875em){
+    html{
+        /* 8px / 16px */
+        font-size: 50%;
+    }
+
+    .header-primary{
+        font-size: 5.2rem;
+    }
+
+    .heading-secondary{
+        font-size: 3.6rem;
+    }
+
+    .pharagraph-text{
+        font-size: 2rem;
+    
+    }
+
+    .food-img img{
+        height: 26rem;
+    }
+
+    .food-container .grid--3--cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-link:link, 
+    .nav-link:visited,
+    .nav-btn, 
+    .hero-btn{
+        font-size: 2.4rem;
+    }
+    /* MOBILE NAVIGATION */
+    .mobile-nav-btn{
+        display: block;
+        z-index: 1000000000;
+    }
+
+    .nav-link{
+        font-size: 2rem;
+    }
+
+    .nav-list{
+        --webkit--backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 153, 0, 0.5);
+        width: 100%;
+        height: 100vh;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+
+        transform: translateX(100%);
+
+        z-index: 10000;
+
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .nav-open .nav-list{
+        opacity: 1;
+        pointer-events: visible;
+        visibility: visible;
+
+        transform: translateX(0);
+    }
+
+    .nav-open .menu-outline{
+        display: none;
+    }
+
+    .nav-open .close-outline{
+        display: block;
+    }
+
+    .FAQ-img img {
+        height: 22rem;
+    }
+}
+
+@media(max-width: 43.74em){
+    html{
+        /* 7/16 */
+        font-size: 43.75%;
+    }
+
+    .nav-link:link, 
+    .nav-link:visited,
+    .nav-btn, 
+    .hero-btn{
+        font-size: 2rem;
+    }
+
+    .food-discription {
+        padding: 2.4rem;
+        color: #333;
+    }
+
+    .scroll{
+        overflow: scroll;
+    }
+
+    .cat-ph {
+        font-size: 1.6rem;
+    }
+
+    
+}
+
+@media(max-width: 37.5em){
+
+    .grid--2--cols{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-container .grid--sp2--cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .food-img img{
+        height: 35rem;
+    }
+
+    .food-discription {
+        padding: 3.2rem;
+        color: #333;
+    }
+
+    .header-primary{
+        font-size: 4.4rem;
+    }
+
+    .heading-secondary{
+        font-size: 3rem;
+    }
+
+    .pharagraph-text{
+        font-size: 2rem;
+    
+    }
+
+    .cat-ph {
+        font-size: 1.4rem;
+    }
+
+    .location-icon {
+        width: 30%;
+    }
+
+    .testimonial-text {
+        padding: 1rem;
+    }
+
+    .find-img img {
+        transform: translateX(0);
+        border-radius: 2rem;
+    }
+}
+
+/* 
+--------01 TYPOGRAPHY SYSTEM 
+
+- FONT SIZE SYSTEM {px}
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+---- 07 WHITESPACE
+- SPACING SYSTEM {px}
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
